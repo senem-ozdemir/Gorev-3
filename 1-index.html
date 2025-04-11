@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>index</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+
+    <style>
+      
+      .stil1{
+
+        background-color: gray;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-left: 60px;
+        border-radius: 5px;
+
+     }
+
+     .stil2{
+      background-color: lightpink;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: italic;
+      font-family: 'Playfair Display';
+      border-radius: 20px;
+      
+     }
+
+    </style>
+
+   
+
+
+</head>
+<body>
+  <div class="container-fluid my-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10">
+      <div class="stil2">
+        <h1 class="display-4 fw-bold text-center text-primary ">Fotoğraf Galerisi</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="container-fluid px-5">  
+    <div class="row justify-content-center gy-4">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/588/200/200.jpg?hmac=amAMbyBq8ZvuCFGI8jPIt928PLIRtxNQ33bISsbDAys"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+        </div>  
+     
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="2.jpg" 
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/15/2500/1667.jpg?hmac=Lv03D1Y3AsZ9L2tMMC1KQZekBVaQSDc1waqJ54IHvo4"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/946/200/200.jpg?hmac=a01jNqgHjp0Vj_csHXBpEttrSyo1vFrUTL1fwgKYG0Y"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/1003/200/200.jpg?hmac=w2SN03yog7_RB-IfnyWX1FtBjSHebnoWD35Lj4-iV7o"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/524/200/200.jpg?hmac=t6LNfKKZ41wUVh8ktcFHag3CGQDzovGpZquMO5cbH-o"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+   
+       
+    </div>
+    <div class="row justify-content-center gy-4 my-2">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/689/200/200.jpg?hmac=2KHWG2UlfLNAWC1jiBz-LQ7b-TMOB4bcW-FVvdQ_7a4"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/906/200/200.jpg?hmac=jQ-m5xgglMRMPvZhK3539qEkxPG1FVUae6AeV_HKQfg"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/818/200/200.jpg?hmac=gfhJZngz3JDsSmE1obNFY5OeAQBVsJLED2VkwuGsC-o"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/225/200/200.jpg?hmac=52EiCj00RHCtvmOTzd1OIWV0prXw1EISWtV8iI65NL4"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/476/200/200.jpg?hmac=QPKhNReQFJilT6PFUwm33_xa1DiivT32FbsWYE4evPU"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/639/200/200.jpg?hmac=us3unt6qN8__M3Xg5qmnoqGeKDyMlYUz0VgEANZ7wuo"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+    </div>
+    <div class="row justify-content-center gy-4 my-2">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/251/200/200.jpg?hmac=_yKttpPQLBisFkKPMRolKUyfZ89QQpENncPdrg8a1J0"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/973/200/200.jpg?hmac=ZdeEx5PH_cDJoo4H_YKYk9zlgvGj7Bzni8SIseGVLyA"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/102/200/200.jpg?hmac=mLVQr0-wbZ-PRSf_R4oFkUDR7yfIKqT3F8pfJNFZKc0"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/629/200/200.jpg?hmac=rfXtHzV4F0aRmck6r9KotwR3FTAMaIae1Cfe8n2FGeA"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/334/200/200.jpg?hmac=Q9rDA3ngheQsAB7HoLSjpzYS0kqelfZIJBGDkW-4wgk"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/841/200/200.jpg?hmac=jAPzaXgN_B37gVuIQvmtuRCmYEC0lJP86OZexH1yam4"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+       
+    </div>
+    <div class="row justify-content-center gy-4 my-2">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/1040/200/200.jpg?hmac=l5Cp_plxzlfQobWWyd5uqBPiqjX1CApBpWP3w8DzYK0"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/155/200/200.jpg?hmac=D_Tf9XAIteS9U6InmFX2j3DXYkvhlEOOkGGiWuMwU9Q"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/67/200/200.jpg?hmac=sN5XCCMqqmBvgDbYmAowWy2VToCkSYP5igDL_iRxK3M"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/44/200/200.jpg?hmac=W5KcqhapHjBgEIHGQpQnX6o9jdOXQEVCKEdGIohjisY"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/458/200/200.jpg?hmac=TMJKh7xYKczm-J8McTjX4hBnhjgraDPgaJFkINMU01Y"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="https://fastly.picsum.photos/id/663/200/200.jpg?hmac=MzrpRFuFESictjAXjWDdc1tKVJQkRXcUjAqfOHgUiww"
+             class="img-fluid stil1"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal"
+             onclick="openModal(this)">
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark">
+        <div class="modal-body text-center">
+          <img id="modalImage" src="" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </div>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <script>
+      function openModal(imgElement) {
+        const modalImg = document.getElementById('modalImage');
+        modalImg.src = imgElement.src;
+      }
+    </script>
+</body>
+</html>
